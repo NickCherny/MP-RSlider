@@ -6,7 +6,7 @@ import { findDOMNode } from 'react-dom';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import PregressLine from '../ProgressLine';
+import PregressLine from './ProgressLine';
 import {
     createEventListener,
     convertToPercent,
