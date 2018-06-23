@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import { createEventListener } from '../utils';
+import { createEventListener } from '../common/utils';
 
 const MarkerStyled = styled.div.attrs({ style: ({ left }) => ({ left }) }) `
     position: absolute;

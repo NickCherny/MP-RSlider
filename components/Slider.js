@@ -11,7 +11,7 @@ import {
     createEventListener,
     convertToPercent,
     converPercentToPixels
-} from '../utils';
+} from '../common/utils';
 import Marker from './Marker';
 
 const Wrapper = styled.div `
